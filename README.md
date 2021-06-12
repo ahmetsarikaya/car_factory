@@ -10,7 +10,7 @@
 
 After project start:
 
-In the browser, call the following links:
+In the browser or Postman, call the following links: (GET request)
   <br/>http://localhost:8080/car/produce/sedan
   <br/><b>Output:</b> Sedan Car has produced.
  
