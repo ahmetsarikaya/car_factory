@@ -17,7 +17,6 @@ pipeline {
 
     stage('Results') {
       steps {
-        junit '**/target/surefire-reports/TI'
         archiveArtifacts 'target/*.jar'
       }
     }
